@@ -59,7 +59,7 @@ sudo userdel -r janek
 2. przełącznik `-r` usuwa również katalog domowy
 
 ## chmod, chown, chgrp
-
+```bash
 +---------+-------------------+------------------+
 | Litera  | Znaczenie         | Parametr liczbowy|
 +---------+-------------------+------------------+
@@ -68,7 +68,7 @@ sudo userdel -r janek
 | x       | prawo uruchomienia| 1                |
 | -       | brak prawa        | 0                |
 +---------+-------------------+------------------+
-
+```
 ### 3 grupy praw
 Do każdego pliku lub katalogu wyszczególniamy zestaw takich praw:
 
@@ -84,7 +84,7 @@ Do każdego pliku lub katalogu wyszczególniamy zestaw takich praw:
 `r--` prawa pozostałych użytkowników
 
 gdzie właścicielem oraz grupą jest kamil
-
+```bash
 | Prawa dostępu | Wartość liczbowa | Znaczenie        |
 | -rw-------    |       600        | R, W`-O`         |
 | -rw-r--r--    |       644        | R, W`-O` + R`-I` |
@@ -101,6 +101,7 @@ gdzie właścicielem oraz grupą jest kamil
 `W` - Zapis
 `-O` - właściciel
 `-I` - Pozostali
+```
 
 ### Polecenie chmod
 ```bash
@@ -259,7 +260,7 @@ razem:
 tar -czvf archiwum.tar.gz katalog/
 tar -xzvf archiwum.tar.gz
 
-
+```bash
 | Polecenie | Do czego służy                             | Przykład                         |
 
 | zip       | Kompresja i archiwizacja (tworzy .zip)     | zip archiwum.zip plik1 plik2     |
@@ -281,3 +282,4 @@ Legenda:
 -v  = verbose (wypisz nazwy plików)  
 -f  = file (nazwa archiwum)  
 -z  = użyj gzip przy tar
+```
