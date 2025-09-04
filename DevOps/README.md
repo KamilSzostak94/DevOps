@@ -30,11 +30,11 @@
 1. Kurs Ansible - automatyzacja zadań w praktyce
 2. Kurs Jenkins - nowoczesny workflow CI/CD
 
-#Apache Kafka
+# Apache Kafka
 ## UZUPEŁNIĆ
 
-#GIT
+# GIT
 ## UZUPEŁNIĆ
 
-#ADMINISTRACJA BAZAMI DANYCH
+# ADMINISTRACJA BAZAMI DANYCH
 ## UZUPEŁNIĆ
