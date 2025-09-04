@@ -1,4 +1,4 @@
-# Notatki DEVOPS KURS
+# DEVOPS
 ## 1. Kluczowe podstawy
 
 1. Kurs Linux od podstaw
@@ -29,3 +29,12 @@
 
 1. Kurs Ansible - automatyzacja zadań w praktyce
 2. Kurs Jenkins - nowoczesny workflow CI/CD
+
+#Apache Kafka
+## UZUPEŁNIĆ
+
+#GIT
+## UZUPEŁNIĆ
+
+#ADMINISTRACJA BAZAMI DANYCH
+## UZUPEŁNIĆ
