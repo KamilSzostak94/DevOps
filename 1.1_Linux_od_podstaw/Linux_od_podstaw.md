@@ -85,9 +85,7 @@ Do każdego pliku lub katalogu wyszczególniamy zestaw takich praw:
 
 gdzie właścicielem oraz grupą jest kamil
 
-+---------------+------------------+------------------+
 | Prawa dostępu | Wartość liczbowa | Znaczenie        |
-+---------------+------------------+------------------+
 | -rw-------    |       600        | R, W`-O`         |
 | -rw-r--r--    |       644        | R, W`-O` + R`-I` |
 | -rw-rw-rw-    |       666        | R, W dla wszyst. |
@@ -261,9 +259,9 @@ razem:
 tar -czvf archiwum.tar.gz katalog/
 tar -xzvf archiwum.tar.gz
 
-+-----------+--------------------------------------------+----------------------------------+
+
 | Polecenie | Do czego służy                             | Przykład                         |
-+-----------+--------------------------------------------+----------------------------------+
+
 | zip       | Kompresja i archiwizacja (tworzy .zip)     | zip archiwum.zip plik1 plik2     |
 | unzip     | Rozpakowanie archiwum .zip                 | unzip archiwum.zip               |
 +-----------+--------------------------------------------+----------------------------------+
@@ -276,7 +274,7 @@ tar -xzvf archiwum.tar.gz
 |           | (często razem z gzip → .tar.gz)            | tar -czvf arch.tar.gz katalog/   |
 |           | Rozpakowanie .tar lub .tar.gz              | tar -xvf arch.tar                |
 |           |                                            | tar -xzvf arch.tar.gz            |
-+-----------+--------------------------------------------+----------------------------------+
+
 Legenda:  
 -c  = create (twórz)  
 -x  = extract (rozpakuj)  
